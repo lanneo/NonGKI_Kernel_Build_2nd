@@ -6,8 +6,8 @@ on:
 
 env:
   # Device env
-  DEVICE_NAME : "device_name"
-  DEVICE_CODENAME : "device_codename"
+  DEVICE_NAME : "realme_gt_neo_flash"
+  DEVICE_CODENAME : "RMX3350"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
@@ -36,7 +36,7 @@ env:
   KERNELSU_AUTO_FORK : "resukisu" # magic, rsuntk, next, resukisu and sukisu
 
   SUSFS_ENABLE : true
-  SUSFS_FIXED : false
+  SUSFS_FIXED : true
 
   AK3_SOURCE : "https://github.com/osm0sis/AnyKernel3.git"
   AK3_BRANCH : "master"
